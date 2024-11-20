@@ -1,7 +1,4 @@
 if status --is-interactive
-    # Add custom scripts folder to PATH
-    set -U fish_user_paths $fish_user_paths /home/dastarruer/bin
-    
     # Rebind Caps Lock
     setxkbmap -option ctrl:nocaps
     xcape -e 'Control_L=Escape'
@@ -23,5 +20,9 @@ if status --is-interactive
     alias ..="cd .."
 end
 
+# Add spicetify to PATH
 fish_add_path /home/dastarruer/.spicetify
 export PATH="$PATH:$HOME/.spicetify"
+
+# Start starship
+starship init fish | source
