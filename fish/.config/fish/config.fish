@@ -26,3 +26,6 @@ export PATH="$PATH:$HOME/.spicetify"
 
 # Start starship
 starship init fish | source
+
+# Set key repeat rate
+xset r rate 175 40
