@@ -1,9 +1,5 @@
 if status --is-interactive
-    # Rebind Caps Lock
-    setxkbmap -option ctrl:nocaps
-    xcape -e 'Control_L=Escape'
-   
-    # Aliases
+    #Aliases
     # APT
     alias apt="sudo apt"
 
@@ -14,7 +10,7 @@ if status --is-interactive
     alias pipes="pipes -p 10"
 
     # Cmatrix 
-    alias cmatrix="cmatrix -u 3"
+    alias cmatrix="cmatrix -u 3 -C magenta"
 
     # Cd
     alias ..="cd .."
