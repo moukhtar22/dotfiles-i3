@@ -14,6 +14,12 @@ if status --is-interactive
 
     # Cd
     alias ..="cd .."
+    
+    # Git
+    ga="git add"
+    gs="git status"
+    gc="git commit -m"
+    gp="git push"
 end
 
 # Add spicetify to PATH

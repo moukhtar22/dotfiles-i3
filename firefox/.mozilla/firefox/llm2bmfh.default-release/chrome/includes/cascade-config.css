@@ -115,9 +115,9 @@
 }
 
 /* Hides the Extensions Menl Icon */
-#unified-extensions-button {
+/* #unified-extensions-button {
     display: none !important;
-}
+} */
 
 /* Hide the reload button */
 #reload-button {
