@@ -14,6 +14,8 @@ if status --is-interactive
 
     # Cd
     alias ..="cd .."
+
+    alias bp="btop"
     
     # Git
     alias ga="git add"
