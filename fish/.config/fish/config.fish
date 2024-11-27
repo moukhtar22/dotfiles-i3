@@ -19,6 +19,7 @@ if status --is-interactive
     
     # Git
     alias ga="git add"
+    alias gb="git branch"
     alias g.="git add ."
     alias gs="git status"
     alias gc="git commit -m"
