@@ -15,7 +15,7 @@ if status --is-interactive
     # Cd
     alias ..="cd .."
 
-    alias bt="btop"
+    alias b="btop"
     
     # Git
     alias ga="git add"
@@ -25,6 +25,9 @@ if status --is-interactive
     alias gc="git commit -m"
     alias gp="git push"
     alias gl="git log"
+
+    alias cp="cp -r"
+    alias rm="rm -r"
 end
 
 # Add spicetify to PATH
