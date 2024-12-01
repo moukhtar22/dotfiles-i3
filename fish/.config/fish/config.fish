@@ -23,6 +23,9 @@ if status --is-interactive
     alias gl="git log"
 
     # Games
+    # To add a new game, create a new directory with the game's name in /home/dastarruer/.local/share/Steam/steamapps/compatdata/{game}
+    # The final alias should look like:
+    # alias {game}="env STEAM_COMPAT_DATA_PATH=/home/dastarruer/.local/share/Steam/steamapps/compatdata/{game} STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/dastarruer/.steam/debian-installation /home/dastarruer/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run /home/dastarruer/Games/{path_to_exe}"
     alias superhot="env STEAM_COMPAT_DATA_PATH=/home/dastarruer/.local/share/Steam/steamapps/compatdata/superhot STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/dastarruer/.steam/debian-installation /home/dastarruer/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run /home/dastarruer/Games/SUPERHOT/SH.exe"
 
     alias cp="cp -r"
@@ -35,6 +38,3 @@ export PATH="$PATH:$HOME/.spicetify"
 
 # Start starship
 starship init fish | source
-
-# Set key repeat rate
-xset r rate 175 40
