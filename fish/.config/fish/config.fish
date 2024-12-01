@@ -1,5 +1,7 @@
 if status --is-interactive
     #Aliases
+
+    alias grep="grep -i"
     # APT
     alias apt="sudo apt"
 
