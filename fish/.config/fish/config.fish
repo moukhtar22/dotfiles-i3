@@ -1,25 +1,19 @@
 if status --is-interactive
-    #Aliases
-
+    #Aliases    
     alias grep="grep -i"
-    # APT
+
     alias apt="sudo apt"
 
-    # Timeshift
     alias timeshift="sudo timeshift"
 
-    # Pipes 
     alias pipes="pipes -p 10"
 
-    # Cmatrix 
     alias cmatrix="cmatrix -u 3 -C magenta"
 
-    # Cd
     alias ..="cd .."
 
     alias b="btop"
     
-    # Git
     alias ga="git add"
     alias gb="git branch"
     alias g.="git add ."
@@ -27,6 +21,9 @@ if status --is-interactive
     alias gc="git commit -m"
     alias gp="git push"
     alias gl="git log"
+
+    # Games
+    alias superhot="env STEAM_COMPAT_DATA_PATH=/home/dastarruer/.local/share/Steam/steamapps/compatdata/superhot STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/dastarruer/.steam/debian-installation /home/dastarruer/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run /home/dastarruer/Games/SUPERHOT/SH.exe"
 
     alias cp="cp -r"
     alias rm="rm -r"
