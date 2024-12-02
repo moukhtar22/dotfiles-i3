@@ -1,5 +1,7 @@
 if status --is-interactive
     #Aliases    
+    alias update="sudo apt update && sudo apt upgrade"    
+
     alias grep="grep -i"
 
     alias apt="sudo apt"
@@ -35,6 +37,9 @@ end
 # Add spicetify to PATH
 fish_add_path /home/dastarruer/.spicetify
 export PATH="$PATH:$HOME/.spicetify"
+
+# Disable touchpad palm rejection
+xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing Enabled" 0
 
 # Start starship
 starship init fish | source
