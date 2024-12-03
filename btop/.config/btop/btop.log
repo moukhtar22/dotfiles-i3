@@ -8,3 +8,7 @@ btop++ needs an interactive shell to run.
 
 2024/11/13 (09:27:33) | ===> btop++ v.1.3.0
 2024/11/13 (09:27:33) | ERROR: Exception during Config::unlock() : unordered_map::at
+
+2024/12/03 (19:37:04) | ===> btop++ v.1.3.0
+2024/12/03 (19:37:04) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
