@@ -1,5 +1,6 @@
 if status --is-interactive
     #Aliases    
+    alias df="cd ~/dotfiles"
     alias update="sudo apt update && sudo apt upgrade"    
 
     alias grep="grep -i"

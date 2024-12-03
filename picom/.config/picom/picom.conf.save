@@ -37,8 +37,7 @@ rounded-corners-exclude = [
 ];  
 # Exclude certain apps from blur
 blur-background-exclude = [
-  "class_g = 'Alacritty'",
-  "class_g = 'Xfce4-panel'"
+  "class_g = 'Alacritty'"
 ];
 
 # Opacity exceptions
@@ -54,6 +53,6 @@ opacity-rule = [
 shadow-exclude = [
   "class_g = 'zen-alpha'",
   "class_g = 'Xfce4-panel'",
-  "class_g = 'Xfce4-screenshooter'",
-  "class_g = 'Polybar'"
+  "class_g = '
+  "class_g = 'Xfce4-screenshooter'"
 ];
