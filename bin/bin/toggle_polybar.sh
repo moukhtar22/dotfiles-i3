@@ -8,7 +8,6 @@ then
     echo "Polybar stopped"
 else
     # If Polybar is not running, start it
-    # Replace "example" with your actual Polybar name if necessary
-    polybar example &
+    $HOME/.config/polybar/launch.sh
     echo "Polybar started"
 fi
