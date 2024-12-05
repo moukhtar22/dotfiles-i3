@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Terminate already running bar instances
+# If all your bars have ipc enabled, you can use 
+polybar-msg cmd quit
+# Otherwise you can use the nuclear option:
+# killall -q polybar
+
+polybar bar1 &
+polybar date &
+polybar bar2 &
+pkill xfce4-panel
+
+echo "Bars launched..."
