@@ -1,5 +1,7 @@
 if status --is-interactive
     #Aliases    
+    alias bash="chsh -s usr/bin/bash"
+    alias fish="chsh -s usr/bin/fish"
     alias df="cd ~/dotfiles"
     alias update="sudo apt update && sudo apt upgrade"    
 
