@@ -1,24 +1,16 @@
 if status --is-interactive
-    #Aliases    
-    alias bash="chsh -s usr/bin/bash"
-    alias fish="chsh -s usr/bin/fish"
+    # Aliases
     alias df="cd ~/dotfiles"
-    alias update="sudo apt update && sudo apt upgrade"    
-
+    alias update="sudo apt update && sudo apt upgrade"
     alias grep="grep -i"
-
     alias apt="sudo apt"
-
     alias timeshift="sudo timeshift"
-
     alias pipes="pipes -p 10"
-
     alias cmatrix="cmatrix -u 3 -C magenta"
-
     alias ..="cd .."
-
     alias b="btop"
     
+    # Git Aliases
     alias ga="git add"
     alias gb="git branch"
     alias g.="git add ."
@@ -28,21 +20,38 @@ if status --is-interactive
     alias gl="git log"
 
     # Games
-    # To add a new game, create a new directory with the game's name in /home/dastarruer/.local/share/Steam/steamapps/compatdata/{game}
-    # The final alias should look like:
-    # alias {game}="env STEAM_COMPAT_DATA_PATH=/home/dastarruer/.local/share/Steam/steamapps/compatdata/{game} STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/dastarruer/.steam/debian-installation /home/dastarruer/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run /home/dastarruer/Games/{path_to_exe}"
-    alias superhot="env STEAM_COMPAT_DATA_PATH=/home/dastarruer/.local/share/Steam/steamapps/compatdata/superhot STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/dastarruer/.steam/debian-installation /home/dastarruer/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run /home/dastarruer/Games/SUPERHOT/SH.exe"
+    # To create a steam game function:
+    # This is the proton prefix that the game will be played in (note that the directory specified has to be created manually)
+    # env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/{game_name} \
+    # This is where steam is installed
+    # STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
+    # Specify the path to proton, and run
+    # $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
+    # path/to/executable
+    function superhot
+        env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/superhot \
+        STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
+        $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
+        $HOME/Games/SUPERHOT/SH.exe
+    end 
 
+    function hitman
+        env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/hitman \
+        STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
+        $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
+        $HOME/Games/HITMAN\ World\ of\ Assassination/Launcher.exe
+    end
+
+    # Safer aliases for cp and rm
     alias cp="cp -r"
     alias rm="rm -r"
 end
 
 # Add spicetify to PATH
 fish_add_path /home/dastarruer/.spicetify
-export PATH="$PATH:$HOME/.spicetify"
 
 # Disable touchpad palm rejection
 xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing Enabled" 0
 
-# Start starship
+# Start Starship prompt
 starship init fish | source
