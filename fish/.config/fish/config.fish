@@ -11,9 +11,9 @@ if status --is-interactive
     alias b="btop"
     
     # Git Aliases
-    alias ga="git add"
+    alias ga="git add && git status"
     alias gb="git branch"
-    alias g.="git add ."
+    alias g.="git add . && git status"
     alias gs="git status"
     alias gc="git commit -m"
     alias gp="git push"
@@ -36,6 +36,7 @@ if status --is-interactive
     end 
 
     function hitman
+        cd ~/Games/HITMAN\ World\ of\ Assassination
         env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/hitman \
         STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
         $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
@@ -46,6 +47,8 @@ if status --is-interactive
     alias cp="cp -r"
     alias rm="rm -r"
 end
+# Remove greeting when starting a new terminal
+set -g fish_greeting ""
 
 # Add spicetify to PATH
 fish_add_path /home/dastarruer/.spicetify
@@ -55,3 +58,5 @@ xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing 
 
 # Start Starship prompt
 starship init fish | source
+
+neofetch
