@@ -6,9 +6,9 @@ polybar-msg cmd quit
 # Otherwise you can use the nuclear option:
 # killall -q polybar
 
-polybar bar1 &
+polybar right &
 polybar date &
-polybar bar2 &
+polybar left &
 pkill xfce4-panel
 
 echo "Bars launched..."
