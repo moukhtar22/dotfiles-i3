@@ -57,11 +57,7 @@ font pango:JetBrainsMono Nerd Font  12
 default_border pixel 0
 # Window gaps
 gaps inner 20
-gaps outer 7 
-# gaps inner all set 20
-# gaps outer current plus 5
-# gaps horizontal current plus 40
-# gaps outer current toggle 60
+gaps outer 1
 
 # disable window titlebars
 for_window [class="^.*"] border pixel 0
