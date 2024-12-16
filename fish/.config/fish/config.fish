@@ -11,7 +11,7 @@ if status --is-interactive
     alias b="btop"
     
     # Git Aliases
-    alias ga="git add && git status"
+    alias ga="git"
     alias gb="git branch"
     alias g.="git add . && git status"
     alias gs="git status"
