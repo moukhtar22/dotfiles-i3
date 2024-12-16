@@ -21,13 +21,13 @@ if status --is-interactive
 
     # Games
     # To create a steam game function:
-    # This is the proton prefix that the game will be played in (note that the directory specified has to be created manually)
-    # env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/{game_name} \
-    # This is where steam is installed
-    # STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
-    # Specify the path to proton, and run
-    # $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
-    # path/to/executable
+        # This is the proton prefix that the game will be played in (note that the directory specified has to be created manually)
+            # env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/{game_name} \
+        # This is where steam is installed
+            # STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
+        # Specify the path to proton, and run
+            # $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
+            # path/to/executable
     function superhot
         env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/superhot \
         STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
@@ -36,7 +36,6 @@ if status --is-interactive
     end 
 
     function hitman
-        cd ~/Games/HITMAN\ World\ of\ Assassination
         env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/hitman \
         STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
         $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
