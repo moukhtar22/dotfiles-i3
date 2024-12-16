@@ -56,7 +56,7 @@ font pango:JetBrainsMono Nerd Font  12
 # You can also use any non-zero value if you'd like to have a border
 default_border pixel 0
 # Window gaps
-gaps inner 7
+gaps inner 20
 gaps outer 7 
 # gaps inner all set 20
 # gaps outer current plus 5
@@ -68,7 +68,7 @@ for_window [class="^.*"] border pixel 0
 
 # Startup
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always feh --bg-scale ~/Pictures/Wallpapers/evening-sky.png
+exec_always --no-startup-id ~/bin/change_wallpaper.sh
 # Window borders
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 # exec_always --no-startup-id ~/bin/xborders
@@ -106,6 +106,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Brightness
+bindsym $mod+v exec --no-startup-id brightnessctl set 10%-
+bindsym $mod+b exec --no-startup-id brightnessctl set +10%
+
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
@@ -123,6 +127,9 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+
+# Wallpaper
+bindsym $mod+Shift+w exec ~/bin/change_wallpaper.sh
 
 # Toggle picom
 bindsym $mod+c exec ~/bin/toggle_picom.sh
