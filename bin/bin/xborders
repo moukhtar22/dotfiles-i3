@@ -1,4 +1,5 @@
 #!/bin/python3
+# NOTE: SYMLINK TO /usr/local/bin TO USE IN i3 CONFIG
 import argparse
 import json
 import os
