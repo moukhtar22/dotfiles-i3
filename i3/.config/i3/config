@@ -52,18 +52,26 @@ client.background        $base
 font pango:JetBrainsMono Nerd Font  12
 
 # Get rid of window title and add border
-for_window [class="^.*"] border pixel 2
-
+# for_window [class="^.*"] border pixel 2
+# You can also use any non-zero value if you'd like to have a border
+default_border pixel 0
 # Window gaps
-gaps inner 7 
+gaps inner 7
 gaps outer 7 
+# gaps inner all set 20
+# gaps outer current plus 5
+# gaps horizontal current plus 40
+# gaps outer current toggle 60
+
+# disable window titlebars
+for_window [class="^.*"] border pixel 0
 
 # Startup
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/Pictures/Wallpapers/evening-sky.png
 # Window borders
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
-exec_always --no-startup-id ~/bin/xborders
+# exec_always --no-startup-id ~/bin/xborders
 
 # Trackpad settings 
 exec xinput set-prop 11 "libinput Tapping Enabled" 1

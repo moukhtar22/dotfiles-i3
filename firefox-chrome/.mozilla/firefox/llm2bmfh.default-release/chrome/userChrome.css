@@ -32,6 +32,11 @@
 /* Feel free to tweak the following
  * config settingsto your own liking. */
 
+ /* Apply JetBrains Mono to Firefox UI */
+* {
+    font-family: "JetBrains Mono", monospace !important;
+}
+
 
  :root {
     
