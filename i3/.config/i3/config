@@ -15,6 +15,10 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:JetBrainsMono Nerd Font  12
 
+
+gaps inner 7 
+gaps outer 7 
+
 exec_always --no-startup-id picom
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id pkill polybar
