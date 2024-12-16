@@ -61,10 +61,11 @@ gaps outer 7
 # Startup
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/Pictures/Wallpapers/evening-sky.png
-exec_always --no-startup-id xborders
-# exec --no-startup-id pkill picom
-exec_always --no-startup-id  picom --config ~/.config/picom/picom.conf
 # Window borders
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+exec_always --no-startup-id ~/bin/xborders
+
+# Trackpad settings 
 exec xinput set-prop 11 "libinput Tapping Enabled" 1
 exec xinput set-prop 11 "libinput Natural Scrolling Enabled" 1
 
