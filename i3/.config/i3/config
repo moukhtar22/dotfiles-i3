@@ -67,7 +67,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id ~/bin/change_wallpaper.sh
 # Window borders
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
-# exec_always --no-startup-id ~/bin/xborders
+exec_always --no-startup-id ~/bin/xborders
 
 # Trackpad settings 
 exec xinput set-prop 11 "libinput Tapping Enabled" 1

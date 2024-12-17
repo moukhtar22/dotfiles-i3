@@ -1,5 +1,4 @@
 #!/bin/python3
-# NOTE: SYMLINK TO /usr/local/bin TO USE IN i3 CONFIG
 import argparse
 import json
 import os
@@ -320,17 +319,13 @@ class Highlight(Gtk.Window):
 
     # This triggers every time the window composited state changes.
     # https://docs.gtk.org/gtk3/signal.Widget.composited-changed.html
-    # This triggers every time the window composited state changes.
     def _composited_changed_event(self, _arg):
         if self.screen.is_composited():
             self.move(0, 0)
         else:
-            self.move(1e6, 1e6)  # Move the window off-screen
-            if not hasattr(self, 'notified_no_compositor') or not self.notified_no_compositor:
-                subprocess.Popen(["notify-send", "--app-name=xborder",
-                                "xborders requires a compositor. Resuming once a compositor is running."])
-                self.notified_no_compositor = True
-
+            self.move(1e6, 1e6)
+            subprocess.Popen(["notify-send", "--app-name=xborder",
+                              "xborders requires a compositor. Resuming once a compositor is running."])
 
     # Avoid memory leaks
     old_window = None
