@@ -19,6 +19,9 @@ if status --is-interactive
     alias gp="git push"
     alias gl="git log"
 
+    # Fzf
+    alias fdf="fzfdf.sh"
+
     # Games
     # To create a steam game function:
         # This is the proton prefix that the game will be played in (note that the directory specified has to be created manually)
