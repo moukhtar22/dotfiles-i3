@@ -64,7 +64,7 @@ for_window [class="^.*"] border pixel 5
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id ~/bin/change_wallpaper.sh
 # Window borders
-exec_always --no-startup-id picom --transp-clipping --config ~/.config/picom/picom.conf
+exec_always --no-startup-id picom --transparent-clipping --config ~/.config/picom/picom.conf
 
 # Trackpad settings 
 exec_always ~/bin/trackpad_settings.sh
