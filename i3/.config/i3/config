@@ -67,8 +67,7 @@ exec_always --no-startup-id ~/bin/change_wallpaper.sh
 exec_always --no-startup-id picom --transp-clipping --config ~/.config/picom/picom.conf
 
 # Trackpad settings 
-exec xinput set-prop 11 "libinput Tapping Enabled" 1
-exec xinput set-prop 11 "libinput Natural Scrolling Enabled" 1
+exec_always ~/bin/trackpad_settings.sh
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -109,8 +108,9 @@ tiling_drag modifier titlebar
 
 # Apps
 bindsym $mod+Return exec alacritty
-bindsym $mod+f exec firefox
+#bindsym $mod+f exec firefox
 bindsym $mod+m exec env LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+bindsym $mod+n exec whatsie
 
 # kill focused window
 bindsym $mod+q kill
@@ -164,7 +164,7 @@ bindsym $mod+Shift+Right move right
 # bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+a fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking

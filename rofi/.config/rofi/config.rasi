@@ -20,4 +20,4 @@ configuration {
   }
 }
 
-@theme "~/.config/rofi/catppuccin-lavrent-mocha.rasi"
+@theme "themes/cat-mocha"

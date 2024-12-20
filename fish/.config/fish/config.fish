@@ -19,6 +19,8 @@ if status --is-interactive
     alias gp="git push"
     alias gl="git log"
 
+    alias picom="picom --transparent-clipping"
+
     # Fzf
     alias fdf="fzfdf.sh"
 
