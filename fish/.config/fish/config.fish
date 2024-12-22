@@ -1,5 +1,7 @@
 if status --is-interactive
     # Aliases
+    alias save="save_workspace_layouts.sh"
+    alias restore="restore_workspace_layouts.sh"
     alias df="cd ~/dotfiles"
     alias update="sudo apt update && sudo apt upgrade"
     alias grep="grep -i"
@@ -56,6 +58,9 @@ set -g fish_greeting ""
 
 # Add spicetify to PATH
 fish_add_path /home/dastarruer/.spicetify
+
+# Add .local/bin to PATH
+set -U fish_user_paths $HOME/.local/bin $fish_user_paths
 
 # Disable touchpad palm rejection
 xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing Enabled" 0

@@ -63,11 +63,14 @@ for_window [class="^.*"] border pixel 5
 # Startup
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id ~/bin/change_wallpaper.sh
-# Window borders
 exec_always --no-startup-id picom --transparent-clipping --config ~/.config/picom/picom.conf
+exec_always --no-startup-id ~/.local/bin/autotiling
+exec_always --no-startup-id restore_workspace_layouts.sh
+# Save layout every time a window is opened
+exec_always --no-startup-id window_event_listener.sh
 
 # Trackpad settings 
-exec_always ~/bin/trackpad_settings.sh
+exec ~/bin/trackpad_settings.sh
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).

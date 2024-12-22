@@ -1,0 +1,8 @@
+{
+  "window_command_mappings": [
+    {
+      "class": "WhatSie",
+      "command": "whatsie"
+    }
+  ]
+}
