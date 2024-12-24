@@ -1,4 +1,5 @@
 #!/bin/bash
+pkill rofi
 
 # Define the main options for Rofi
 main_options="Region Screenshot\nFull Screenshot"

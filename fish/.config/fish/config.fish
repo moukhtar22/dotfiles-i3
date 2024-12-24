@@ -2,6 +2,7 @@ if status --is-interactive
     # Aliases
     alias save="save_workspace_layouts.sh"
     alias restore="restore_workspace_layouts.sh"
+
     alias df="cd ~/dotfiles"
     alias update="sudo apt update && sudo apt upgrade"
     alias grep="grep -i"
@@ -25,6 +26,10 @@ if status --is-interactive
 
     # Fzf
     alias fdf="fzfdf.sh"
+
+    alias picom-edit="nano ~/dotfiles/picom/.config/picom/picom.conf"
+    alias i3-edit="nano dotfiles/i3/.config/i3/config"
+    alias polybar-edit="code dotfiles/polybar/.config/polybar/."
 
     # Games
     # To create a steam game function:

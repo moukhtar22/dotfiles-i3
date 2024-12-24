@@ -43,7 +43,7 @@ set $transp #00000000
 client.focused           $lavender $base $text  $rosewater $mauve 
 client.focused_inactive  $overlay0 $base $text  $rosewater $transp
 client.unfocused         $overlay0 $base $text  $rosewater $transp
-client.urgent            $peach    $base $peach $overlay0  $peach
+client.urgent            $peach    $base $peach $overlay0  $transp
 client.placeholder       $overlay0 $base $text  $overlay0  $transp
 client.background        $base
 
@@ -57,8 +57,7 @@ gaps inner 10
 gaps outer 1
 
 # disable window titlebars and add borders
-for_window [class="^.*"] border pixel 5
-
+for_window [class="^.*"] border pixel 0
 
 # Startup
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -253,6 +252,7 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
+	bindsym $mod+q mode "default"
 }
 
 bindsym $mod+r mode "resize"
