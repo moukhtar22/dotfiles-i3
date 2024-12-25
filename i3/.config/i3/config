@@ -55,7 +55,7 @@ font pango:JetBrainsMono Nerd Font  12
 # Window gaps
 gaps inner 10
 gaps outer 1
-
+smart_gaps on
 # disable window titlebars and add borders
 for_window [class="^.*"] border pixel 0
 
@@ -120,7 +120,7 @@ bindsym $mod+q kill
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 # Rofi screenshot
-bindsym $mod+s exec --no-startup-id ~/.config/rofi/scripts/screenshot.sh 
+bindsym Print exec --no-startup-id ~/.config/rofi/scripts/screenshot.sh 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -209,6 +209,8 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1

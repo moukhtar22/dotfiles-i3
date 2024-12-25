@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Kill any running instance of Rofi (optional, in case it causes conflicts)
 pkill rofi
 
 # Define the main options for Rofi
@@ -36,10 +38,12 @@ case "$main_choice" in
                 ;;
             
             *)
+                echo "No valid option selected for full screenshot."
                 ;;
         esac
         ;;
     
     *)
+        echo "No valid option selected."
         ;;
 esac
