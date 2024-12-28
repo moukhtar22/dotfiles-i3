@@ -1,3 +1,10 @@
 [user]
 	email = ayushpramanik399@gmail.com
 	name = dastarruer
+[push]
+	default = current
+[core]
+	editor = code
+	excludesfile = /home/dastarruer/.gitignore_global
+[help]
+	autocorrect = 1
