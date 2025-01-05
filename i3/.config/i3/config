@@ -64,9 +64,9 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id ~/bin/change_wallpaper.sh
 exec_always --no-startup-id picom --transparent-clipping --config ~/.config/picom/picom.conf
 exec_always --no-startup-id ~/.local/bin/autotiling
-exec_always --no-startup-id restore_workspace_layouts.sh
+exec --no-startup-id ~/bin/restore_workspace_layouts.sh
 # Save layout every time a window is opened
-exec_always --no-startup-id window_event_listener.sh
+exec --no-startup-id ~/bin/window_event_listener.sh
 
 # Trackpad settings 
 exec ~/bin/trackpad_settings.sh
@@ -122,11 +122,8 @@ bindsym $mod+q kill
 bindsym $mod+d exec --no-startup-id rofi -show drun
 # Rofi screenshot
 bindsym Print exec --no-startup-id ~/.config/rofi/scripts/screenshot.sh 
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+# Rofimoji
+bindsym $mod+e exec --no-startup-id ~/.local/bin/rofimoji
 
 # Wallpaper
 bindsym $mod+Shift+w exec ~/bin/change_wallpaper.sh
@@ -172,7 +169,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
