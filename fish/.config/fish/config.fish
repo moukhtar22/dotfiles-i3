@@ -12,7 +12,8 @@ if status --is-interactive
     alias cmatrix="cmatrix -u 3 -C magenta"
     alias ..="cd .."
     alias b="btop"
-    
+    alias kavita="kavita.sh"    
+
     # Git Aliases
     alias ga="git"
     alias gb="git branch"
