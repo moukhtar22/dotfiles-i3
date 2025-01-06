@@ -4,7 +4,7 @@
 pkill rofi
 
 # Define the main options for Rofi
-main_options="Region Screenshot\nFull Screenshot"
+main_options="Full Screenshot\nRegion Screenshot"
 
 # Display main options in Rofi and capture the selection
 main_choice=$(echo -e "$main_options" | rofi -dmenu -p "Flameshot:")
