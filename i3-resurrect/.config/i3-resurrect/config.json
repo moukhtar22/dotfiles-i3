@@ -6,7 +6,11 @@
     },
     {
       "class": "^calibre$",
-      ""
+      "command": "^calibre\\-gui$"
+    },
+    {
+      "class": "^calibre$",
+      "command": "^calibre\\-ebook\\-viewer$"
     }
   ]
 }
