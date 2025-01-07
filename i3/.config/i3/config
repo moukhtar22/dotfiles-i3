@@ -124,7 +124,8 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym Print exec --no-startup-id ~/.config/rofi/scripts/screenshot.sh 
 # Rofimoji
 bindsym $mod+e exec --no-startup-id ~/.local/bin/rofimoji
-
+# Power settings
+bindsym $mod+o exec --no-startup-id ~/.config/rofi/scripts/power.sh
 # Wallpaper
 bindsym $mod+Shift+w exec ~/bin/change_wallpaper.sh
 

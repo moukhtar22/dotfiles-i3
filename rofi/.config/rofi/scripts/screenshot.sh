@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Kill any running instance of Rofi (optional, in case it causes conflicts)
-pkill rofi
-
 # Define the main options for Rofi
 main_options="Full Screenshot\nRegion Screenshot"
 
