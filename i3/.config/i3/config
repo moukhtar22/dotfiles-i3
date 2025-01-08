@@ -108,7 +108,7 @@ bindsym $mod+b exec --no-startup-id brightnessctl set +10%
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-bindsym $mod+s exec save_workspace_layouts.sh
+bindsym $mod+s exec ~/bin/save_workspace_layouts.sh
 
 # Apps
 bindsym $mod+Return exec alacritty

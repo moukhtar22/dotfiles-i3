@@ -5,12 +5,12 @@
       "command": "whatsie"
     },
     {
-      "class": "^calibre$",
-      "command": "^calibre\\-gui$"
+      "class": "calibre",
+      "command": "calibre-gui"
     },
     {
-      "class": "^calibre$",
-      "command": "^calibre\\-ebook\\-viewer$"
+      "class": "calibre",
+      "command": "calibre-ebook-viewer"
     }
   ]
 }
