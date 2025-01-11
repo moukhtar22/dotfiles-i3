@@ -12,7 +12,7 @@ if status --is-interactive
     alias cmatrix="cmatrix -u 3 -C magenta"
     alias ..="cd .."
     alias b="btop"
-    alias kavita="kavita.sh"    
+    alias mkdir="mkdir -p"
 
     # Git Aliases
     alias ga="git"
@@ -53,6 +53,13 @@ if status --is-interactive
         STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
         $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
         $HOME/Games/HITMAN\ World\ of\ Assassination/Launcher.exe
+    end
+
+    function nightrunners
+        env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/nightrunners \
+        STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
+        $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
+        $HOME/.steam/debian-installation/steamapps/common/NIGHT-RUNNERS\ PROLOGUE/
     end
 
     # Safer aliases for cp and rm
