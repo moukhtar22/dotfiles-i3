@@ -13,6 +13,7 @@ if status --is-interactive
     alias ..="cd .."
     alias b="btop"
     alias mkdir="mkdir -p"
+    alias cmdf="commit_dotfiles.sh"
 
     # Git Aliases
     alias ga="git"
@@ -59,7 +60,7 @@ if status --is-interactive
         env STEAM_COMPAT_DATA_PATH=$HOME/.local/share/Steam/steamapps/compatdata/nightrunners \
         STEAM_COMPAT_CLIENT_INSTALL_PATH=$HOME/.steam/debian-installation \
         $HOME/.steam/steam/steamapps/common/Proton\ 9.0\ \(Beta\)/proton run \
-        $HOME/.steam/debian-installation/steamapps/common/NIGHT-RUNNERS\ PROLOGUE/
+        $HOME/.steam/debian-installation/steamapps/common/NIGHT-RUNNERS\ PROLOGUE/NIGHT-RUNNERS\ PROLOGUE.exe
     end
 
     # Safer aliases for cp and rm
