@@ -18,4 +18,4 @@ done
 # Set the new wallpaper using feh
 feh --bg-scale "$WALLPAPER"
 
-echo "Wallpaper set to $WALLPAPER"
+notify-send -t 1 "Wallpaper set" "$WALLPAPER"
