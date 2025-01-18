@@ -14,6 +14,7 @@ if status --is-interactive
     alias b="btop"
     alias mkdir="mkdir -p"
     alias cmdf="commit_dotfiles.sh"
+    alias snap="sudo snap"
 
     # Git Aliases
     alias ga="git"

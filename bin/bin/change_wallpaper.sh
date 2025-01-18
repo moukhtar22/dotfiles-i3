@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing wallpapers
-WALLPAPER_DIR="$HOME/dotfiles/Wallpapers/Pictures/Wallpapers"
+WALLPAPER_DIR="$HOME/dotfiles/wallpapers/Pictures/wallpapers"
 
 # Get the current wallpaper (feh stores this in an X property)
 CURRENT_WALLPAPER=$(xprop -root _XROOTPMAP_ID | awk '{print $3}')
