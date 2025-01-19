@@ -19,4 +19,4 @@ do
     fi
 done
 
-echo "All workspaces have been processed."
+notify-send "All workspaces have been processed."

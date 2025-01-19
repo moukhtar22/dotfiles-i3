@@ -24,6 +24,11 @@ if status --is-interactive
     alias gc="git commit -m"
     alias gp="git push"
     alias gl="git log"
+    alias gch="git checkout -b"
+    
+    alias connect="nmcli d wifi list && nmcli d wifi connect 'Pramaniks_5G' password 'Pspdpb@74'"
+    alias nmcli-list="nmcli d wifi list"
+    alias nmcli-connect="nmcli d wifi connect"
 
     alias picom="picom --transparent-clipping"
 
@@ -33,6 +38,7 @@ if status --is-interactive
     alias picom-edit="nano ~/dotfiles/picom/.config/picom/picom.conf"
     alias i3-edit="nano dotfiles/i3/.config/i3/config"
     alias polybar-edit="code dotfiles/polybar/.config/polybar/."
+    alias fish-edit="nano ~/dotfiles/fish/.config/fish/config.fish"
 
     # Games
     # To create a steam game function:
