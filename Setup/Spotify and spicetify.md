@@ -12,5 +12,4 @@ https://spicetify.app/docs/getting-started/
 Spicetify cli
 https://spicetify.app/docs/advanced-usage/command-line-interface
 
-Install catppuccin
-https://github.com/catppuccin/spicetify
+Install catppuccin through the marketplace

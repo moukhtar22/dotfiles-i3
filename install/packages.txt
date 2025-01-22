@@ -185,6 +185,7 @@ fontconfig-config
 fonts-dejavu-core
 fonts-dejavu-mono
 fonts-droid-fallback
+fonts-jetbrains-mono
 fonts-liberation
 fonts-mathjax
 fonts-noto-cjk
@@ -1824,6 +1825,7 @@ udev
 udisks2
 ufw
 uno-libs-private
+unrar
 unshield
 unzip
 update-inetd
