@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# add packages to install script
+echo "Adding packages..."
+dpkg --get-selections | awk '{print $1}' > ~/dotfiles/install/packages.txt
+echo "Packages added."
+
 CURRENT_DIR=$(pwd)
 
 cd ~/dotfiles

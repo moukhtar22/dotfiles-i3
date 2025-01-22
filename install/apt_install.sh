@@ -2,7 +2,7 @@
 # Install all apt packages
 
 # Check if the package list file exists
-if [ ! -f installed_packages.txt ]; then
+if [ ! -f packages.txt ]; then
   echo "Error: installed_packages.txt not found. Generate it first using dpkg."
   exit 1
 fi
@@ -10,6 +10,7 @@ fi
 # Update package index
 echo "Updating package index..."
 sudo apt update
+sudo apt upgrade
 
 # Install packages from the list
 echo "Installing packages..."

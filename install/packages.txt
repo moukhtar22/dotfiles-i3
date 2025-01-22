@@ -424,6 +424,7 @@ libargon2-1:amd64
 libaribb24-0t64:amd64
 libasan8:amd64
 libasound2-data
+libasound2-plugins:amd64
 libasound2t64:amd64
 libaspell15:amd64
 libass9:amd64
@@ -1561,8 +1562,6 @@ picom
 pinentry-curses
 pinentry-gnome3
 pipewire:amd64
-pipewire-alsa:amd64
-pipewire-audio
 pipewire-bin
 pipewire-pulse
 pix
@@ -1606,6 +1605,7 @@ printer-driver-splix
 procps
 psmisc
 publicsuffix
+pulseaudio
 pulseaudio-utils
 python-apt-common
 python3
@@ -1761,6 +1761,7 @@ sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
+spotify-client
 squashfs-tools
 ssl-cert
 sticky
