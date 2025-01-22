@@ -385,6 +385,7 @@ isc-dhcp-common
 iso-codes
 iso-flag-png
 iucode-tool
+iw
 javascript-common
 jfsutils
 kbd
@@ -1425,8 +1426,6 @@ libzstd1:amd64
 libzvbi-common
 libzvbi0t64:amd64
 libzxing3:amd64
-light-locker
-light-locker-settings
 lightdm
 lightdm-settings
 linux-base
@@ -1561,6 +1560,7 @@ perl-openssl-defaults:amd64
 picom
 pinentry-curses
 pinentry-gnome3
+pipes-sh
 pipewire:amd64
 pipewire-bin
 pipewire-pulse
@@ -1804,6 +1804,8 @@ thunderbird-locale-en-us
 time
 timeshift
 timgm6mb-soundfont
+tlp
+tlp-rdw
 tnftp
 tpm-udev
 transmission-common
