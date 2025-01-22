@@ -70,6 +70,9 @@ exec --no-startup-id xset r rate 300 50
 # Trackpad settings 
 exec_always --no-startup-id ~/bin/trackpad_settings.sh
 
+# Layout manager
+exec_always --no-startup-id i3-autolayout autolayout
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -132,14 +135,14 @@ bindsym $mod+o exec --no-startup-id ~/.config/rofi/scripts/power.sh
 bindsym $mod+Shift+w exec ~/bin/change_wallpaper.sh
 
 # Toggle picom
-bindsym $mod+c exec ~/bin/toggle_picom.sh
+bindsym $mod+c exec --no-startup-id ~/bin/toggle_picom.sh
 
 # change focus
 # Move mouse pointer to the center of the focused window
-bindsym $mod+h focus left; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
-bindsym $mod+l focus right; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
-bindsym $mod+j focus down; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
-bindsym $mod+k focus up; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
+bindsym $mod+h focus left; exec --no-startup-id ~/.config/i3/scripts/move_cursor_to_focused.sh
+bindsym $mod+l focus right; exec --no-startup-id ~/.config/i3/scripts/move_cursor_to_focused.sh
+bindsym $mod+j focus down; exec --no-startup-id ~/.config/i3/scripts/move_cursor_to_focused.sh
+bindsym $mod+k focus up; exec --no-startup-id ~/.config/i3/scripts/move_cursor_to_focused.sh
 
 
 # Cursor keys

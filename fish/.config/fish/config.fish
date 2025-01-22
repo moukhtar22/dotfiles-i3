@@ -36,8 +36,8 @@ if status --is-interactive
     alias fdf="fzfdf.sh"
 
     alias picom-edit="nano ~/dotfiles/picom/.config/picom/picom.conf"
-    alias i3-edit="nano dotfiles/i3/.config/i3/config"
-    alias polybar-edit="code dotfiles/polybar/.config/polybar/."
+    alias i3-edit="nano ~/dotfiles/i3/.config/i3/config"
+    alias polybar-edit="code ~/dotfiles/polybar/.config/polybar/."
     alias fish-edit="nano ~/dotfiles/fish/.config/fish/config.fish"
 
     # Games
@@ -82,6 +82,7 @@ fish_add_path /home/dastarruer/.spicetify
 
 # Add .local/bin to PATH
 set -U fish_user_paths $HOME/.local/bin $fish_user_paths
+set -Ux fish_user_paths $HOME/.cargo/bin $fish_user_paths
 
 # Disable touchpad palm rejection
 xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing Enabled" 0
