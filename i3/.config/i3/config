@@ -136,10 +136,10 @@ bindsym $mod+c exec ~/bin/toggle_picom.sh
 
 # change focus
 # Move mouse pointer to the center of the focused window
-bindsym $mod+h focus left; exec --no-startup-id ~/.config/i3/move_cursor_to_focused.sh
-bindsym $mod+l focus right; exec --no-startup-id ~/.config/i3/move_cursor_to_focused.sh
-bindsym $mod+j focus down; exec --no-startup-id ~/.config/i3/move_cursor_to_focused.sh
-bindsym $mod+k focus up; exec --no-startup-id ~/.config/i3/move_cursor_to_focused.sh
+bindsym $mod+h focus left; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
+bindsym $mod+l focus right; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
+bindsym $mod+j focus down; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
+bindsym $mod+k focus up; exec --no-startup-id ~/.config/bin/move_cursor_to_focused.sh
 
 
 # Cursor keys
