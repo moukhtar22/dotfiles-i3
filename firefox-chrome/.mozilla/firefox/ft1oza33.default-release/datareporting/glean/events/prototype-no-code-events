@@ -1,2 +1,0 @@
-{"timestamp":6905337,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1737510339467","source":"keyboard","widget_id":"key-newNavigatorTab","flow_id":"{b9c497cd-07a1-4f1f-973a-7427a1f505f1}"}}
-{"timestamp":6909662,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1737510343791","widget_id":"downloads-button","flow_id":"{b9c497cd-07a1-4f1f-973a-7427a1f505f1}","source":"nav-bar"}}
