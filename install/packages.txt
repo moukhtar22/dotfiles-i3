@@ -233,6 +233,7 @@ gettext
 gettext-base
 ghostscript
 gir1.2-accountsservice-1.0:amd64
+gir1.2-appindicator3-0.1
 gir1.2-atk-1.0:amd64
 gir1.2-atspi-2.0:amd64
 gir1.2-ayatanaappindicator3-0.1
@@ -369,6 +370,7 @@ iio-sensor-proxy
 im-config
 imagemagick-6-common
 indicator-common
+indicator-cpufreq
 indicator-sound
 inetutils-telnet
 info
@@ -558,6 +560,7 @@ libconfig9:amd64
 libconfuse-common
 libconfuse2:amd64
 libcpdb2t64:amd64
+libcpufreq0
 libcrack2:amd64
 libcrypt-dev:amd64
 libcrypt1:amd64
@@ -1641,6 +1644,7 @@ poppler-data
 poppler-utils
 power-profiles-daemon
 powermgmt-base
+powertop
 ppp
 pptp-linux
 printer-driver-brlaser
@@ -1878,6 +1882,7 @@ shared-mime-info
 shim-signed
 simple-scan
 slick-greeter
+smartmontools
 smbclient
 snapd
 sound-theme-freedesktop

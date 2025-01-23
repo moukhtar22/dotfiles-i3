@@ -1,0 +1,17 @@
+{
+  "auto add path choose": "/home/dastarruer/Documents/books",
+  "database location dialog": "/home/dastarruer/Desktop",
+  "import-calibre-palette": "/home/dastarruer/dotfiles/calibre/.config/calibre",
+  "save to disk dialog": "/home/dastarruer/Documents/books",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_was_run": true
+}
