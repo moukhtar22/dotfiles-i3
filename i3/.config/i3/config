@@ -55,7 +55,7 @@ font pango:JetBrainsMono Nerd Font  12
 # Window gaps
 gaps inner 10
 gaps outer 1
-#smart_gaps on
+smart_gaps on
 # disable window titlebars and add borders
 for_window [class="^.*"] border pixel 0
 

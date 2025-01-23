@@ -870,7 +870,6 @@ libjcat1:amd64
 libjpeg-turbo-progs
 libjpeg-turbo8:amd64
 libjpeg8:amd64
-libjpeg9:amd64
 libjs-jquery
 libjs-jquery-ui
 libjs-mathjax
@@ -1855,10 +1854,7 @@ readline-common
 reiserfsprogs
 rename
 rfkill
-rhythmbox
 rhythmbox-data
-rhythmbox-plugin-tray-icon
-rhythmbox-plugins
 rofi
 rpcsvc-proto
 rsync
