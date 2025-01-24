@@ -4,7 +4,7 @@ if status --is-interactive
     alias restore="restore_workspace_layouts.sh"
 
     alias df="cd ~/dotfiles"
-    alias update="sudo apt update && sudo apt upgrade"
+    alias update="sudo apt update ; sudo apt upgrade"
     alias grep="grep -i"
     alias apt="sudo apt"
     alias timeshift="sudo timeshift"
@@ -24,7 +24,7 @@ if status --is-interactive
     alias gc="git commit -m"
     alias gp="git push"
     alias gl="git log"
-    alias gch="git checkout -b"
+    alias gch="git checkout"
     
     alias connect="nmcli d wifi list && nmcli d wifi connect 'Pramaniks_5G' password 'Pspdpb@74'"
     alias nmcli-list="nmcli d wifi list"

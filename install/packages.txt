@@ -302,6 +302,14 @@ gnome-themes-extra:amd64
 gnome-themes-extra-data
 gnupg
 gnupg-utils
+golang:amd64
+golang-1.22
+golang-1.22-doc
+golang-1.22-go
+golang-1.22-src
+golang-doc
+golang-go:amd64
+golang-src
 gpg
 gpg-agent
 gpgconf
