@@ -3,19 +3,30 @@
 # Directory containing wallpapers
 WALLPAPER_DIR="$HOME/dotfiles/wallpapers/Pictures/wallpapers"
 
-# Get the current wallpaper (feh stores this in an X property)
-CURRENT_WALLPAPER=$(xprop -root _XROOTPMAP_ID | awk '{print $3}')
+# File to track the last selected wallpaper
+INDEX_FILE="$HOME/.current_wallpaper_index"
 
-# Get a random wallpaper from the directory
-WALLPAPER=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
+# Get the list of wallpapers in sorted order
+WALLPAPERS=($(find "$WALLPAPER_DIR" -type f | sort))
 
-# Check if the wallpaper is the same as the current one
-while [[ "$WALLPAPER" == "$CURRENT_WALLPAPER" ]]; do
-    # Get another random wallpaper if the same
-    WALLPAPER=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
-done
+# Total number of wallpapers
+NUM_WALLPAPERS=${#WALLPAPERS[@]}
 
-# Set the new wallpaper using feh
-feh --bg-scale "$WALLPAPER"
+# Load or initialize the current index
+if [[ -f "$INDEX_FILE" ]]; then
+    CURRENT_INDEX=$(<"$INDEX_FILE")
+else
+    CURRENT_INDEX=0
+fi
 
-notify-send -t 1 "Wallpaper set" "$WALLPAPER"
+# Calculate the next index
+NEXT_INDEX=$(( (CURRENT_INDEX + 1) % NUM_WALLPAPERS ))
+
+# Set the new wallpaper
+feh --bg-scale "${WALLPAPERS[$NEXT_INDEX]}"
+
+# Update the index file
+echo "$NEXT_INDEX" > "$INDEX_FILE"
+
+# Notify user
+notify-send -t 1000 "Wallpaper set to: ${WALLPAPERS[$NEXT_INDEX]}"
