@@ -26,9 +26,8 @@ if status --is-interactive
     alias gl="git log"
     alias gch="git checkout"
     
-    alias connect="nmcli d wifi list && nmcli d wifi connect 'Pramaniks_5G' password 'Pspdpb@74'"
-    alias nmcli-list="nmcli d wifi list"
-    alias nmcli-connect="nmcli d wifi connect"
+    alias list="nmcli d wifi list"
+    alias connect="nmcli d wifi connect"
 
     alias picom="picom --transparent-clipping"
 

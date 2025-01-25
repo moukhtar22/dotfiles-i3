@@ -13,7 +13,7 @@
 }
 
 #titlebar {
-	z-index: 2;
+	z-index: 1;
 }
 
 @media (-moz-bool-pref: "animatedFox.squareCorners") {
