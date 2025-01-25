@@ -15,6 +15,7 @@ if status --is-interactive
     alias mkdir="mkdir -p"
     alias cmdf="commit_dotfiles.sh"
     alias snap="sudo snap"
+    alias wifi="wifi.sh"
 
     # Git Aliases
     alias ga="git"
