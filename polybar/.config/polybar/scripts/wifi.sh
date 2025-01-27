@@ -1,9 +1,11 @@
 #!/bin/bash
 
-notify-send -t 2000 "Searching for connections..."
+nmcli radio wifi on
+
+notify-send "Searching for connections..."
 
 # Get a list of Wi-Fi networks
-wifi_list=$(nmcli -t -f SSID device wifi list | grep -v "^$")
+wifi_list=$(nmcli -t -f SSID device wifi list | grep -v '^--$' | sort -u)
 
 # Use Rofi to display the list and capture the selection
 selected_ssid=$(echo "$wifi_list" | rofi -dmenu -p -i "Select Wi-Fi")
@@ -21,14 +23,14 @@ if [[ -z "$password" ]]; then
   exit 0
 fi
 
-notify-send -t 2000 "Connecting to $selected_ssid..."
+notify-send "Connecting to $selected_ssid..."
 
 # Attempt to connect to the selected Wi-Fi with the entered password
 nmcli device wifi connect "$selected_ssid" password "$password"
 
 # Check if the connection was successful
 if [[ $? -eq 0 ]]; then
-  notify-send -t 2000 "Wi-Fi Connected" "Successfully connected to $selected_ssid"
+  notify-send "Wi-Fi Connected" "Successfully connected to $selected_ssid"
 else
-  notify-send -t 2000 "Wi-Fi Connection Failed" "Could not connect to $selected_ssid. Check the password."
+  notify-send "Wi-Fi Connection Failed" "Could not connect to $selected_ssid. Check the password."
 fi
