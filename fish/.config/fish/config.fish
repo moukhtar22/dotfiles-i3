@@ -16,6 +16,7 @@ if status --is-interactive
     alias cmdf="commit_dotfiles.sh"
     alias snap="sudo snap"
     alias wifi="wifi.sh"
+    alias backup="backup.sh"
 
     # Git Aliases
     alias ga="git"
