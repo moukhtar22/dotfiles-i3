@@ -6,5 +6,5 @@ then
     pkill picom
 else
     echo "Picom is not running. Starting Picom..."
-    picom --transparent-clipping --config ~/.config/picom/picom.conf &
+    picom --config ~/.config/picom/picom.conf &
 fi

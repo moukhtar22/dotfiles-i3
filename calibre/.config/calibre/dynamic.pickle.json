@@ -1,8 +1,11 @@
 {
+  "add formats dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter",
+  "add formats dialog-last-used-filter-spec-all-files": false,
   "auto add path choose": "/home/dastarruer/Documents/books",
+  "change cover dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter",
   "database location dialog": "/home/dastarruer/Desktop",
   "import-calibre-palette": "/home/dastarruer/dotfiles/calibre/.config/calibre",
-  "save to disk dialog": "/home/dastarruer/Documents/books",
+  "save to disk dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter (1)",
   "sort_history": [
     [
       "timestamp",

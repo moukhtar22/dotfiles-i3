@@ -1,6 +1,10 @@
 {
   "auto_add_check_for_duplicates": true,
   "auto_add_path": null,
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA5wAAAWMAAAEKAf////8BAAAAAQA="
+  },
   "book_list_pin_splitter_state": {
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
@@ -384,30 +388,285 @@
       }
     }
   },
+  "geometry-of-export-annotations-geometry": {
+    "frame_geometry": {
+      "height": 80,
+      "width": 352,
+      "x": 768,
+      "y": 472
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 80,
+      "width": 352,
+      "x": 768,
+      "y": 472
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 80,
+      "width": 352,
+      "x": 768,
+      "y": 472
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAMAAAAB2AAABF8AAAInAAADAAAAAdgAAARfAAACJwAAAAAAAAAAB4AAAAMAAAAB2AAABF8AAAIn"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-image-trim-dialog-geometry": {
+    "frame_geometry": {
+      "height": 600,
+      "width": 900,
+      "x": 981,
+      "y": 287
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 600,
+      "width": 900,
+      "x": 981,
+      "y": 287
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 600,
+      "width": 900,
+      "x": 981,
+      "y": 287
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPVAAABHwAAB1gAAAN2AAAD1QAAAR8AAAdYAAADdgAAAAAAAAAAB4AAAAPVAAABHwAAB1gAAAN2"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-library-annotations-browser-geometry": {
+    "frame_geometry": {
+      "height": 654,
+      "width": 922,
+      "x": 491,
+      "y": 199
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 654,
+      "width": 922,
+      "x": 491,
+      "y": 199
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 654,
+      "width": 922,
+      "x": 491,
+      "y": 199
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAHrAAAAxwAABYQAAANUAAAB6wAAAMcAAAWEAAADVAAAAAAAAAAAB4AAAAHrAAAAxwAABYQAAANU"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metasingle_window_geometry3": {
+    "frame_geometry": {
+      "height": 988,
+      "width": 944,
+      "x": 340,
+      "y": 64
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 988,
+      "width": 944,
+      "x": 340,
+      "y": 64
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 988,
+      "width": 944,
+      "x": 340,
+      "y": 64
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAFUAAAAQAAABQMAAAQbAAABVAAAAEAAAAUDAAAEGwAAAAAAAAAAB4AAAAFUAAAAQAAABQMAAAQb"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "geometry-of-preferences dialog geometry": {
     "frame_geometry": {
       "height": 720,
       "width": 930,
-      "x": 976,
-      "y": 358
+      "x": 549,
+      "y": 240
     },
     "full_screened": false,
     "geometry": {
       "height": 720,
       "width": 930,
-      "x": 976,
-      "y": 358
+      "x": 549,
+      "y": 240
     },
     "maximized": false,
     "normal_geometry": {
       "height": 720,
       "width": 930,
-      "x": 976,
-      "y": 358
+      "x": 549,
+      "y": 240
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPQAAABZgAAB3EAAAQ1AAAD0AAAAWYAAAdxAAAENQAAAAAAAAAAB4AAAAPQAAABZgAAB3EAAAQ1"
+      "__value__": "AdnQywADAAAAAAIlAAAA8AAABcYAAAO/AAACJQAAAPAAAAXGAAADvwAAAAAAAAAAB4AAAAIlAAAA8AAABcYAAAO/"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-single-cover-fetch-dialog-geometry": {
+    "frame_geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 796,
+      "y": 393
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 796,
+      "y": 393
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 796,
+      "y": 393
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAMcAAABiQAABEMAAAKoAAADHAAAAYkAAARDAAACqAAAAAAAAAAAB4AAAAMcAAABiQAABEMAAAKo"
     },
     "screen": {
       "depth": 24,
@@ -436,8 +695,12 @@
     }
   },
   "grid view visible": false,
+  "library-annotations-browser-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
+  },
   "library_usage_stats": {
-    "/home/dastarruer/Documents/books": 15
+    "/home/dastarruer/Documents/books": 17
   },
   "light_palette_name": "__current__",
   "light_palettes": {
@@ -490,6 +753,9 @@
   },
   "manual_add_auto_convert": true,
   "quick_start_guide_added": true,
+  "recently_used_languages": [
+    "English"
+  ],
   "replace_scene_breaks_history": [
     "",
     "<hr />",
