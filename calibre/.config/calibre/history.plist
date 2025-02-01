@@ -12,5 +12,9 @@
 		<string>/home/dastarruer/Documents/books</string>
 		<string>~/Documents/books</string>
 	</array>
+	<key>lineedit_history_viewer-search-panel-expression</key>
+	<array>
+		<string>petulant</string>
+	</array>
 </dict>
 </plist>

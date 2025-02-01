@@ -19,7 +19,7 @@ if status --is-interactive
     alias backup="backup.sh"
 
     # Git Aliases
-    alias ga="git"
+    alias ga="git add"
     alias gb="git branch"
     alias g.="git add . && git status"
     alias gs="git status"

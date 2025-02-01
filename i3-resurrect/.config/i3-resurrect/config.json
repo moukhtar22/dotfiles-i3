@@ -9,12 +9,12 @@
       "command": "whatsie" 
     },  
     {
-      "class": "calibre-gui",
+      "class": "calibre\-gui",
       "command": "calibre"
     }, 
     {
       "class": "calibre",
-      "command": "calibre-ebook-viewer"
+      "command": "calibre\-ebook\-viewer"
     }
   ]
 }   

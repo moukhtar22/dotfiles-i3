@@ -689,7 +689,6 @@ libdrm-common
 libdrm-intel1:amd64
 libdrm-intel1:i386
 libdrm-nouveau2:amd64
-libdrm-nouveau2:i386
 libdrm-radeon1:amd64
 libdrm-radeon1:i386
 libdrm2:amd64
@@ -1089,7 +1088,8 @@ liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblirc-client0t64:amd64
 libllvm17t64:amd64
-libllvm17t64:i386
+libllvm19:amd64
+libllvm19:i386
 liblmdb0:amd64
 liblocale-gettext-perl
 liblouis-data
@@ -1904,6 +1904,8 @@ mdadm
 media-player-info
 media-types
 menulibre
+mesa-libgallium:amd64
+mesa-libgallium:i386
 mesa-utils
 mesa-utils-bin:amd64
 mesa-va-drivers:amd64

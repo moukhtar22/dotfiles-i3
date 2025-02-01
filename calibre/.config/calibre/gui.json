@@ -235,6 +235,57 @@
       }
     }
   },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 980,
+      "width": 1850,
+      "x": 2,
+      "y": 71
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 980,
+      "width": 1850,
+      "x": 2,
+      "y": 71
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 980,
+      "width": 1850,
+      "x": 2,
+      "y": 71
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAACAAAARwAABzsAAAQaAAAAAgAAAEcAAAc7AAAEGgAAAAAAAAAAB4AAAAACAAAARwAABzsAAAQa"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "geometry-of-create-virtual-library-dialog": {
     "frame_geometry": {
       "height": 352,
@@ -490,6 +541,108 @@
       }
     }
   },
+  "geometry-of-job-detail-view-dialog-geometry": {
+    "frame_geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 524,
+      "y": 270
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 524,
+      "y": 270
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 524,
+      "y": 270
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAIMAAABDgAABMcAAAMBAAACDAAAAQ4AAATHAAADAQAAAAAAAAAAB4AAAAIMAAABDgAABMcAAAMB"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-jobs_dialog_geometry": {
+    "frame_geometry": {
+      "height": 342,
+      "width": 354,
+      "x": 705,
+      "y": 363
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 342,
+      "width": 354,
+      "x": 705,
+      "y": 363
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 342,
+      "width": 354,
+      "x": 705,
+      "y": 363
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAALBAAABawAABCIAAALAAAACwQAAAWsAAAQiAAACwAAAAAAAAAAAB4AAAALBAAABawAABCIAAALA"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "",
+      "name": "eDP",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "geometry-of-library-annotations-browser-geometry": {
     "frame_geometry": {
       "height": 654,
@@ -545,26 +698,26 @@
     "frame_geometry": {
       "height": 988,
       "width": 944,
-      "x": 340,
-      "y": 64
+      "x": 342,
+      "y": 90
     },
     "full_screened": false,
     "geometry": {
       "height": 988,
       "width": 944,
-      "x": 340,
-      "y": 64
+      "x": 342,
+      "y": 90
     },
     "maximized": false,
     "normal_geometry": {
       "height": 988,
       "width": 944,
-      "x": 340,
-      "y": 64
+      "x": 342,
+      "y": 90
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAFUAAAAQAAABQMAAAQbAAABVAAAAEAAAAUDAAAEGwAAAAAAAAAAB4AAAAFUAAAAQAAABQMAAAQb"
+      "__value__": "AdnQywADAAAAAAFWAAAAWgAABQUAAAQ1AAABVgAAAFoAAAUFAAAENQAAAAAAAAAAB4AAAAFWAAAAWgAABQUAAAQ1"
     },
     "screen": {
       "depth": 24,
@@ -695,12 +848,16 @@
     }
   },
   "grid view visible": false,
+  "jobs view column layout3": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+  },
   "library-annotations-browser-splitter-state": {
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
   },
   "library_usage_stats": {
-    "/home/dastarruer/Documents/books": 17
+    "/home/dastarruer/Documents/books": 21
   },
   "light_palette_name": "__current__",
   "light_palettes": {
