@@ -1,12 +1,13 @@
 {
-  "add books dialog dir": "/home/dastarruer/Documents/books/Jeff Lindsay/Dearly Devoted Dexter",
+  "add books dialog dir": "/home/dastarruer/Downloads",
   "add books dialog dir-last-used-filter-spec-all-files": false,
   "add formats dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter",
   "add formats dialog-last-used-filter-spec-all-files": false,
   "auto add path choose": "/home/dastarruer/Documents/books",
-  "change cover dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter",
+  "change cover dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter (5)",
   "database location dialog": "/home/dastarruer/Desktop",
   "import-calibre-palette": "/home/dastarruer/dotfiles/calibre/.config/calibre",
+  "library_delete_books_again": false,
   "save to disk dialog": "/home/dastarruer/Documents/books/Jeff Lindsay/Darkly Dreaming Dexter (1)",
   "sort_history": [
     [

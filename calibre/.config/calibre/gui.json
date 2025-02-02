@@ -392,26 +392,26 @@
     "frame_geometry": {
       "height": 380,
       "width": 522,
-      "x": 214,
-      "y": 123
+      "x": 216,
+      "y": 149
     },
     "full_screened": false,
     "geometry": {
       "height": 380,
       "width": 522,
-      "x": 214,
-      "y": 123
+      "x": 216,
+      "y": 149
     },
     "maximized": false,
     "normal_geometry": {
       "height": 380,
       "width": 522,
-      "x": 214,
-      "y": 123
+      "x": 216,
+      "y": 149
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAADWAAAAewAAAt8AAAH2AAAA1gAAAHsAAALfAAAB9gAAAAAAAAAAB4AAAADWAAAAewAAAt8AAAH2"
+      "__value__": "AdnQywADAAAAAADYAAAAlQAAAuEAAAIQAAAA2AAAAJUAAALhAAACEAAAAAAAAAAAB4AAAADYAAAAlQAAAuEAAAIQ"
     },
     "screen": {
       "depth": 24,
@@ -698,26 +698,26 @@
     "frame_geometry": {
       "height": 988,
       "width": 944,
-      "x": 342,
-      "y": 90
+      "x": 38,
+      "y": 84
     },
     "full_screened": false,
     "geometry": {
       "height": 988,
       "width": 944,
-      "x": 342,
-      "y": 90
+      "x": 38,
+      "y": 84
     },
     "maximized": false,
     "normal_geometry": {
       "height": 988,
       "width": 944,
-      "x": 342,
-      "y": 90
+      "x": 38,
+      "y": 84
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAFWAAAAWgAABQUAAAQ1AAABVgAAAFoAAAUFAAAENQAAAAAAAAAAB4AAAAFWAAAAWgAABQUAAAQ1"
+      "__value__": "AdnQywADAAAAAAAmAAAAVAAAA9UAAAQvAAAAJgAAAFQAAAPVAAAELwAAAAAAAAAAB4AAAAAmAAAAVAAAA9UAAAQv"
     },
     "screen": {
       "depth": 24,
@@ -857,7 +857,7 @@
     "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
   },
   "library_usage_stats": {
-    "/home/dastarruer/Documents/books": 21
+    "/home/dastarruer/Documents/books": 23
   },
   "light_palette_name": "__current__",
   "light_palettes": {

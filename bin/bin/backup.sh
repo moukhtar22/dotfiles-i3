@@ -1,47 +1,64 @@
 #!/bin/bash
 
-# Set the destination directory (the USB mount point)
-DEST_DIR="/media/dastarruer/mnt" # Make sure this matches where the USB is mounted
+# Define directories
+USB_DEVICE="/dev/sda1"
+MOUNT_POINT="/media/dastarruer/mnt"
+SOURCE_DIRS=("$HOME/Documents/vault" "$HOME/Documents/books")
+GDRIVE_NOTES="$HOME/gdrive/Notes"
 
-sudo mount /dev/sda1 /media/dastarruer/mnt
-
-if [ $? -eq 0 ]; then
-    echo "Drive mounted successfully."
+# Mount the USB drive
+echo "Mounting USB drive..."
+if sudo mount "$USB_DEVICE" "$MOUNT_POINT"; then
+    echo "Drive mounted successfully at $MOUNT_POINT."
 else
-    echo "Drive did not mount. Either eject the USB and plug it back in, or put the usb in idiot (no wonder no one loves you)."
+    echo "Drive mount failed. Either reinsert the USB or check the connection."
     exit 1
 fi
 
-# Set the source directory (the folder to back up)
-SOURCE_DIR="$HOME/Documents/vault" # Change this to the directory you want to back up
-
-
-# Check if the USB is mounted
-if mount | grep -q "$DEST_DIR"; then
-    echo "USB is mounted at $DEST_DIR. Proceeding with backup..."
-else
-    echo "Error: USB is not mounted at $DEST_DIR. Please mount the USB and try again."
+# Verify the USB is mounted
+if ! mount | grep -q "$MOUNT_POINT"; then
+    echo "Error: USB is not mounted at $MOUNT_POINT. Aborting backup."
     exit 1
 fi
 
-# Perform the backup with rsync
-echo "Starting backup from $SOURCE_DIR to $DEST_DIR..."
-sudo rsync -avh --progress --delete "$SOURCE_DIR" "$DEST_DIR"
+# Perform backup to USB
+for DIR in "${SOURCE_DIRS[@]}"; do
+    if [ -d "$DIR" ]; then
+        echo "Backing up $DIR to $MOUNT_POINT..."
+        if sudo rsync -avh --progress --delete "$DIR" "$MOUNT_POINT"; then
+            echo "Backup of $DIR completed successfully."
+        else
+            echo "Backup of $DIR failed."
+            exit 1
+        fi
+    else
+        echo "Warning: Source directory $DIR does not exist. Skipping..."
+    fi
+done
 
-# Check if the rsync command succeeded
-if [ $? -eq 0 ]; then
-    echo "Backup completed successfully."
+# Sync notes to Google Drive
+echo "Syncing notes to Google Drive..."
+if sudo rsync -avh --progress --delete "$HOME/Documents/vault/" "$GDRIVE_NOTES"; then
+    echo "Backup to Google Drive completed successfully."
 else
-    echo "Backup failed. Please check for errors."
+    echo "Backup to Google Drive failed."
     exit 1
 fi
 
-sudo eject /dev/sda
-
-if [ $? -eq 0 ]; then
-    echo "Drive ejected, plug it out and have fun!"
+# Sync notes from Google Drive to local machine
+echo "Syncing notes from Google Drive to local machine..."
+if rsync -avh --progress --delete "$GDRIVE_NOTES/" "$HOME/Documents/vault"; then
+    echo "Backup from Google Drive completed successfully."
 else
-    echo "Drive did not eject, pls eject manually with 'sudo eject /dev/sda' (or whatever the drive is called)"
+    echo "Backup from Google Drive failed."
     exit 1
 fi
 
+# Eject USB drive
+echo "Ejecting USB drive..."
+if sudo eject "$USB_DEVICE"; then
+    echo "Drive ejected safely. You can remove it now."
+else
+    echo "Failed to eject the drive. Try manually with: 'sudo eject $USB_DEVICE'"
+    exit 1
+fi

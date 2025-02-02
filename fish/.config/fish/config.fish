@@ -25,7 +25,7 @@ if status --is-interactive
     alias gs="git status"
     alias gc="git commit -m"
     alias gp="git push"
-    alias gl="git log"
+    alias gl="git log --oneline"
     alias gch="git checkout"
     
     alias list="nmcli d wifi list"
