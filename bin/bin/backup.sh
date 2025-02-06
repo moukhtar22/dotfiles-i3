@@ -36,24 +36,6 @@ for DIR in "${SOURCE_DIRS[@]}"; do
     fi
 done
 
-# Sync notes to Google Drive
-echo "Syncing notes to Google Drive..."
-if sudo rsync -avh --progress --delete "$HOME/Documents/vault/" "$GDRIVE_NOTES"; then
-    echo "Backup to Google Drive completed successfully."
-else
-    echo "Backup to Google Drive failed."
-    exit 1
-fi
-
-# Sync notes from Google Drive to local machine
-echo "Syncing notes from Google Drive to local machine..."
-if rsync -avh --progress --delete "$GDRIVE_NOTES/" "$HOME/Documents/vault"; then
-    echo "Backup from Google Drive completed successfully."
-else
-    echo "Backup from Google Drive failed."
-    exit 1
-fi
-
 # Eject USB drive
 echo "Ejecting USB drive..."
 if sudo eject "$USB_DEVICE"; then

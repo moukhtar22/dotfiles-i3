@@ -698,26 +698,26 @@
     "frame_geometry": {
       "height": 988,
       "width": 944,
-      "x": 38,
-      "y": 84
+      "x": -20,
+      "y": -40
     },
     "full_screened": false,
     "geometry": {
       "height": 988,
       "width": 944,
-      "x": 38,
-      "y": 84
+      "x": -20,
+      "y": -40
     },
     "maximized": false,
     "normal_geometry": {
       "height": 988,
       "width": 944,
-      "x": 38,
-      "y": 84
+      "x": -20,
+      "y": -40
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAmAAAAVAAAA9UAAAQvAAAAJgAAAFQAAAPVAAAELwAAAAAAAAAAB4AAAAAmAAAAVAAAA9UAAAQv"
+      "__value__": "AdnQywADAAD////s////2AAAA5sAAAOz////7P///9gAAAObAAADswAAAAAAAAAAB4D////s////2AAAA5sAAAOz"
     },
     "screen": {
       "depth": 24,
@@ -857,7 +857,7 @@
     "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
   },
   "library_usage_stats": {
-    "/home/dastarruer/Documents/books": 23
+    "/home/dastarruer/Documents/books": 25
   },
   "light_palette_name": "__current__",
   "light_palettes": {

@@ -1,28 +1,28 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 988,
+      "height": 489,
       "width": 944,
       "x": 965,
-      "y": 81
+      "y": 580
     },
     "full_screened": false,
     "geometry": {
-      "height": 988,
+      "height": 489,
       "width": 944,
       "x": 965,
-      "y": 81
+      "y": 580
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 988,
+      "height": 489,
       "width": 944,
       "x": 965,
-      "y": 81
+      "y": 580
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPFAAAAUQAAB3QAAAQsAAADxQAAAFEAAAd0AAAELAAAAAAAAAAAB4AAAAPFAAAAUQAAB3QAAAQs"
+      "__value__": "AdnQywADAAAAAAPFAAACRAAAB3QAAAQsAAADxQAAAkQAAAd0AAAELAAAAAAAAAAAB4AAAAPFAAACRAAAB3QAAAQs"
     },
     "screen": {
       "depth": 24,
@@ -53,7 +53,7 @@
   "lookup_location": "Google search",
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAA4wAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABDgAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAADsAAAA9wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAA4wAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAABDgAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAADsAAAAekAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
@@ -85,7 +85,7 @@
         ],
         "key": "/home/dastarruer/Documents/books/Jeff Lindsay/Dearly Devoted Dexter (6)/Dearly Devoted Dexter - Jeff Lindsay.epub",
         "pathtoebook": "/home/dastarruer/Documents/books/Jeff Lindsay/Dearly Devoted Dexter (6)/Dearly Devoted Dexter - Jeff Lindsay.epub",
-        "timestamp": "2025-02-01T23:29:59.404Z",
+        "timestamp": "2025-02-03T23:44:09.534Z",
         "title": "Dearly Devoted Dexter"
       },
       {
