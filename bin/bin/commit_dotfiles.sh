@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # add packages to install script
-echo "Adding packages..."
+echo "Adding apt packages..."
 dpkg --get-selections | awk '{print $1}' > ~/dotfiles/install/apt_packages.txt
+echo "Adding snap packages..."
 snap list | awk 'NR>1 {print $1}' > ~/dotfiles/install/snap_packages.txt
 echo "Packages added."
 
