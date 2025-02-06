@@ -1,0 +1,13 @@
+bare
+core20
+core22
+gaming-graphics-core22
+gnome-3-38-2004
+gnome-42-2204
+gtk-common-themes
+obsidian
+qbittorrent-arnatious
+qt515-core20
+snapd
+spotify
+steam

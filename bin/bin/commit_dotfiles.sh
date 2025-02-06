@@ -2,7 +2,8 @@
 
 # add packages to install script
 echo "Adding packages..."
-dpkg --get-selections | awk '{print $1}' > ~/dotfiles/install/packages.txt
+dpkg --get-selections | awk '{print $1}' > ~/dotfiles/install/apt_packages.txt
+snap list | awk 'NR>1 {print $1}' > ~/dotfiles/install/snap_packages.txt
 echo "Packages added."
 
 CURRENT_DIR=$(pwd)
