@@ -92,3 +92,6 @@ xinput set-prop "ELAN06FA:00 04F3:32B9 Touchpad" "libinput Disable While Typing 
 starship init fish | source
 
 neofetch
+
+# zoxide
+zoxide init fish | source

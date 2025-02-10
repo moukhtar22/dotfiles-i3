@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "rclone"
             }
+          },
+          {
+            "id": "7488c12df19c81cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zoxide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "zoxide"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,12 +178,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee2f550c74b8d65c",
+  "active": "7488c12df19c81cb",
   "lastOpenFiles": [
+    "rclone.md",
+    "zoxide.md",
     "Timeshift.md",
     "omf.md",
     "Install cargo.md",
-    "rclone.md",
     "Snap.md",
     "airpods.md",
     "i3-resurrect.md",

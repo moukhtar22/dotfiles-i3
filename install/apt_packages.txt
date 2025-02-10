@@ -2518,4 +2518,5 @@ zip
 zlib1g:amd64
 zlib1g:i386
 zlib1g-dev:amd64
+zoxide
 zstd

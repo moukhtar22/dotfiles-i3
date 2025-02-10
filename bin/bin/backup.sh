@@ -36,6 +36,9 @@ for DIR in "${SOURCE_DIRS[@]}"; do
     fi
 done
 
+echo "Press enter to eject:"
+read
+
 # Eject USB drive
 echo "Ejecting USB drive..."
 if sudo eject "$USB_DEVICE"; then
