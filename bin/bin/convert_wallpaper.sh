@@ -12,4 +12,4 @@ echo "Copying to dotfiles..."
 cp -f ~/Pictures/wallpapers/$2 ~/dotfiles/wallpapers/Pictures/wallpapers/
 
 echo "Committing dotfiles..."
-commit_dotfiles.sh "Added $WALLPAPER wallpaper"
+commit_dotfiles.sh "Added $NAME wallpaper"

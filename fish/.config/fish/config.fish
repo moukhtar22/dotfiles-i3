@@ -28,10 +28,10 @@ if status --is-interactive
     alias gl="git log --oneline"
     alias gch="git checkout"
     
-    alias list="nmcli d wifi list"
-    alias connect="nmcli d wifi connect"
+    alias wlist="nmcli d wifi list"
+    alias wconnect="nmcli d wifi connect"
 
-    alias picom="picom --transparent-clipping"
+    alias convert="convert_wallpaper.sh"
 
     # Fzf
     alias fdf="fzfdf.sh"
