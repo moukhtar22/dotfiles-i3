@@ -19,6 +19,7 @@ fi
 rm -f "~/Pictures/wallpapers/$WALLPAPER"
 rm -f "~/dotfiles/wallpapers/Pictures/wallpapers/$WALLPAPER"
 
+echo "rm -f \"~/Pictures/wallpapers/$WALLPAPER\""
 echo "$WALLPAPER removed."
 
 # Commit the changes to dotfiles
