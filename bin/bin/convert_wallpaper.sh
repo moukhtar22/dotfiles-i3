@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Convert wallpaper color scheme to catppuccin
 WALLPAPER=$1
 NAME=$2
 
@@ -13,3 +13,6 @@ cp -f ~/Pictures/wallpapers/$2 ~/dotfiles/wallpapers/Pictures/wallpapers/
 
 echo "Committing dotfiles..."
 commit_dotfiles.sh "Added $NAME wallpaper"
+
+echo "Setting wallpaper..."
+feh --bg-scale ~/Pictures/wallpapers/$NAME
