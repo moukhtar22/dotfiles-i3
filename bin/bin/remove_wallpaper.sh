@@ -23,3 +23,6 @@ echo "$WALLPAPER removed."
 
 # Commit the changes to dotfiles
 commit_dotfiles.sh "Removed $WALLPAPER wallpaper"
+
+# Change wallpaper
+change_wallpaper.sh
