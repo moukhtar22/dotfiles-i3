@@ -32,9 +32,10 @@ if status --is-interactive
     alias wconnect="nmcli d wifi connect"
 
     alias convert="convert_wallpaper.sh"
-
+	
     # Fzf
     alias fdf="fzfdf.sh"
+    alias remove_wallpaper="remove_wallpaper.sh"
 
     alias picom-edit="nano ~/dotfiles/picom/.config/picom/picom.conf"
     alias i3-edit="nano ~/dotfiles/i3/.config/i3/config"
