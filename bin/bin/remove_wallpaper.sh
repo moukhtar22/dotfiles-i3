@@ -15,8 +15,7 @@ if [[ "$CONFIRM" != "y" ]]; then
     exit 1
 fi
 
-# Remove wallpaper from both locations
-rm  ~/Pictures/wallpapers/$WALLPAPER
+# Remove wallpaper 
 rm ~/dotfiles/wallpapers/Pictures/wallpapers/$WALLPAPER
 
 echo "$WALLPAPER removed."
