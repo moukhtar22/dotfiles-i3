@@ -3,6 +3,7 @@ if status --is-interactive
     alias save="save_workspace_layouts.sh"
     alias restore="restore_workspace_layouts.sh"
 
+    alias y="yazi"
     alias df="cd ~/dotfiles"
     alias update="sudo apt update ; sudo apt upgrade"
     alias grep="grep -i"

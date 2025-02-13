@@ -29,4 +29,4 @@ feh --bg-scale "${WALLPAPERS[$NEXT_INDEX]}"
 echo "$NEXT_INDEX" > "$INDEX_FILE"
 
 # Notify user
-notify-send -t 1000 "Wallpaper set to: ${WALLPAPERS[$NEXT_INDEX]}"
+notify-send -t 1000 "Wallpaper set to: $(basename "${WALLPAPERS[$NEXT_INDEX]}")"

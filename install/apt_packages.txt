@@ -172,8 +172,10 @@ exfat-fuse
 exfatprogs
 exo-utils
 fakeroot
+fd-find
 fdisk
 feh
+ffmpeg
 ffmpegthumbnailer
 file
 file-roller
@@ -392,7 +394,9 @@ ieee-data
 ifuse
 iio-sensor-proxy
 im-config
+imagemagick
 imagemagick-6-common
+imagemagick-6.q16
 indicator-common
 indicator-cpufreq
 indicator-sound
@@ -426,6 +430,7 @@ iucode-tool
 iw
 javascript-common
 jfsutils
+jq
 kbd
 kerneloops
 keyboard-configuration
@@ -1040,6 +1045,7 @@ libjpeg-turbo8-dev:amd64
 libjpeg8:amd64
 libjpeg8:i386
 libjpeg8-dev:amd64
+libjq1:amd64
 libjs-jquery
 libjs-jquery-ui
 libjs-mathjax
@@ -1179,6 +1185,7 @@ libnet-http-perl
 libnet-libidn-perl
 libnet-ssleay-perl:amd64
 libnetfilter-conntrack3:amd64
+libnetpbm11t64:amd64
 libnetplan1:amd64
 libnettle8t64:amd64
 libnettle8t64:i386
@@ -1215,6 +1222,7 @@ libodbc2:i386
 libodfgen-0.1-1:amd64
 libogg0:amd64
 libogg0:i386
+libonig5:amd64
 liboobs-1-5:amd64
 libopenal-data
 libopenal1:amd64
@@ -1292,6 +1300,7 @@ libpixman-1-dev:amd64
 libpkcs11-helper1t64:amd64
 libpkgconf3:amd64
 libplacebo338:amd64
+libplayerctl2:amd64
 libplist-2.0-4:amd64
 libplymouth5:amd64
 libpng-dev:amd64
@@ -1969,6 +1978,7 @@ neofetch
 net-tools
 netbase
 netcat-openbsd
+netpbm
 netplan-generator
 netplan.io
 network-manager
@@ -2027,6 +2037,7 @@ pkexec
 pkg-config:amd64
 pkgconf:amd64
 pkgconf-bin
+playerctl
 plocate
 plymouth
 plymouth-label
@@ -2262,6 +2273,7 @@ reiserfsprogs
 rename
 rfkill
 rhythmbox-data
+ripgrep
 rofi
 rpcsvc-proto
 rsync
