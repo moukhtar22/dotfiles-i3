@@ -436,6 +436,10 @@ kerneloops
 keyboard-configuration
 keyboxd
 keyutils
+kitty
+kitty-doc
+kitty-shell-integration
+kitty-terminfo
 klibc-utils
 kmod
 kpartx
