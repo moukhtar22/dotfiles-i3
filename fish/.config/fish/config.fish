@@ -3,7 +3,6 @@ if status --is-interactive
     alias save="save_workspace_layouts.sh"
     alias restore="restore_workspace_layouts.sh"
 
-    alias y="yazi"
     alias df="cd ~/dotfiles"
     alias update="sudo apt update ; sudo apt upgrade"
     alias grep="grep -i"
@@ -97,3 +96,12 @@ neofetch
 
 # zoxide
 zoxide init fish --cmd cd | source
+
+function y
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	yazi $argv --cwd-file="$tmp"
+	if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		builtin cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end

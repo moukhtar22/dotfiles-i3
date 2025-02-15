@@ -117,7 +117,7 @@ tiling_drag modifier titlebar
 bindsym $mod+s exec ~/bin/save_workspace_layouts.sh
 
 # Apps
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec ~/.local/kitty.app/bin/kitty
 bindsym $mod+m exec env LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 bindsym $mod+n exec whatsie
 

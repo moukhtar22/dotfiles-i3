@@ -36,7 +36,7 @@ for DIR in "${SOURCE_DIRS[@]}"; do
     fi
 done
 
-echo "Press enter to eject:"
+echo "Check if files are properly synced, then press enter to eject:"
 read
 
 # Eject USB drive

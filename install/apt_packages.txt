@@ -75,6 +75,7 @@ celluloid
 cifs-utils
 cinnamon-desktop-data
 circle-flags-svg
+cmatrix
 code
 colord
 colord-data
@@ -436,7 +437,6 @@ kerneloops
 keyboard-configuration
 keyboxd
 keyutils
-kitty
 kitty-doc
 kitty-shell-integration
 kitty-terminfo
