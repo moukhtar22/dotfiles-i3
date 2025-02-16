@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 
 set $rosewater #f5e0dc
 set $flamingo #f2cdcd
@@ -107,8 +108,8 @@ bindsym XF86AudioPrev exec playerctl previous
 floating_modifier $mod
 
 # Brightness
-bindsym $mod+v exec --no-startup-id brightnessctl set 10%-
-bindsym $mod+b exec --no-startup-id brightnessctl set +10%
+bindsym $alt+v exec --no-startup-id brightnessctl set 10%-
+bindsym $alt+b exec --no-startup-id brightnessctl set +10%
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
