@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing wallpapers
-WALLPAPER_DIR="$HOME/dotfiles/wallpapers/Pictures/wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/wallpapers/"
 
 # File to track the last selected wallpaper
 INDEX_FILE="$HOME/.current_wallpaper_index"

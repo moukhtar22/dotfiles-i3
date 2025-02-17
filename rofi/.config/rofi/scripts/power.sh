@@ -9,7 +9,7 @@ CHOICE=$(echo -e "$OPTIONS" | rofi -dmenu -i -p "Power Menu:")
 case "$CHOICE" in
     " Lock")
         # Lock the screen
-        i3lock ;;  # Replace with your preferred lock screen command
+        betterlockscreen --lock ;;  # Replace with your preferred lock screen command
     "󰗽 Logout")
         # Logout from the current session
         i3-msg exit ;;  # Replace with "pkill -KILL -u $USER" if not using i3
