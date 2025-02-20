@@ -74,6 +74,7 @@ cargo
 casper
 catfish
 cava
+cbonsai
 celluloid
 cifs-utils
 cinnamon-desktop-data

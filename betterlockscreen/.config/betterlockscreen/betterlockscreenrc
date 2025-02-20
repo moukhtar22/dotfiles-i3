@@ -14,7 +14,7 @@ quiet=false
 
 # default theme
 loginbox=1e1e2eff
-loginshadow=cdd6f400
+loginshadow=11111b00
 locktext="Password:"
 font="JetBrains Mono Nerd Font"
 ringcolor=cdd6f4ff
