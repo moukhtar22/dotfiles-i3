@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Shutdown script executed at $(date)" >> /var/log/shutdown.log
+
 # Check if i3-resurrect is installed
 if ! command -v i3-resurrect &> /dev/null
 then
@@ -18,5 +20,4 @@ do
         echo "Workspace $workspace saved successfully."
     fi
 done
-
-notify-send "All workspaces have been processed."
+exit 0
